@@ -6,10 +6,12 @@ module {
   public type NewProfile = {
     firstName: Text;
     lastName: Text;
-    title: Text;
-    company: Text;
-    experience: Text;
-    education: Text;
+    origin: Text;
+    destination: Text;
+    biohash: Text;
+    geohash: Text;
+    routehash : Text;
+    timehash: Text;
     imgUrl: Text;
   };
 
@@ -17,10 +19,12 @@ module {
     id: UserId;
     firstName: Text;
     lastName: Text;
-    title: Text;
-    company: Text;
-    experience: Text;
-    education: Text;
+    origin: Text;
+    destination: Text;
+    biohash: Text;
+    geohash: Text;
+    routehash : Text;
+    timehash: Text;
     imgUrl: Text;
   };
 };
