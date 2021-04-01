@@ -23,6 +23,7 @@ module {
           destination = "";
           geohash = "";
           biohash = "";
+          routehash = "";
           timehash = "";
           imgUrl = "";
         }
