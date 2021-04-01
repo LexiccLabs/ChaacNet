@@ -1,5 +1,6 @@
 import Connectd "canister:chaac";
-import Database "./database";
+import DistressDB "./distressdb";
+import DisasterDB "./disasterdb";
 import Types "./types";
 import Utils "./utils";
 
