@@ -5,7 +5,7 @@ import Types "./types";
 module {
   type Vertex = Types.Vertex;
 
-  public class Digraph() {
+  public class Crossgraph() {
 
     var vertexList: [Vertex] = [];
     var edgeList: [(Vertex, Vertex)] = [];
