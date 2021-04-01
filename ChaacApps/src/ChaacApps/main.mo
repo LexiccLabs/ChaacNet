@@ -1,10 +1,11 @@
 import Connectd "canister:chaac";
 import DistressDB "./distressdb";
 import DisasterDB "./disasterdb";
+import CrossGraph "./crossgraph";
 import Types "./types";
 import Utils "./utils";
 
-actor LinkedUp {
+actor LookUp {
 
   type NewProfile = Types.NewProfile;
   type Profile = Types.Profile;
