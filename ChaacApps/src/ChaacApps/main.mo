@@ -1,4 +1,3 @@
-// Make the Connectd app's public methods available locally
 import Connectd "canister:chaac";
 import Database "./database";
 import Types "./types";
