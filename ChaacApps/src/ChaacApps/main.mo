@@ -11,8 +11,6 @@ actor LinkedUp {
 
   var directory: Database.Directory = Database.Directory();
 
-  // Healthcheck
-
   public func healthcheck(): async Bool { true };
 
   // Profiles
@@ -34,8 +32,6 @@ actor LinkedUp {
   public query func search(term: Text): async [Profile] {
     directory.findBy(term)
   };
-
-  // Connections
 
   public shared(msg) func chaac(userId: UserId): async () {
     await ChaacNet.chaac(msg.caller, userId);
