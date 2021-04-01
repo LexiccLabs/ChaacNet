@@ -1,7 +1,8 @@
 
 import Array "mo:base/Array";
 import Option "mo:base/Option";
-import Database "./database";
+import DistressDB "./distressdb";
+import DisasterDB "./disasterdb";
 import Types "./types";
 
 module {
