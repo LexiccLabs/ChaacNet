@@ -15,6 +15,17 @@ ChaacNet is designed as a cross border consensus based collective registry for f
 - Universal Authentication
 - Universal Aggrements
 
+## Concepts
+
+### Universal Access
+- One Registry to be accessed by organisations across the world
+- Data entry by anyone from any location
+- Data accessibility by anyone from any location 
+
+### Universal Authentication
+- Authentication using Quadratic Aggregation of Hashes
+- Authorisation using Role Based Access Control
+
 ## Cryptography
 - Geohash
 - Routehash
@@ -23,6 +34,9 @@ ChaacNet is designed as a cross border consensus based collective registry for f
 
 ## Technology
 - DFNITY SDK 0.6.26
+- Motko Programming
+- NodeJS
+- NPM
 
 ## Components
 - Distress Registry Database
