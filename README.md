@@ -44,6 +44,7 @@ ChaacNet is designed as a cross border consensus based collective registry for f
 
 ## References
 - https://sdk.dfinity.org/docs/developers-guide/tutorials/custom-frontend.html
+- https://sdk.dfinity.org/docs/developers-guide/webpack-config.html
 - https://sdk.dfinity.org/docs/quickstart/local-quickstart.html
 - https://sdk.dfinity.org/docs/candid-guide/candid-intro.html
 - https://sdk.dfinity.org/docs/language-guide/motoko.html
